@@ -36,3 +36,4 @@
 | <img src="https://avatars.githubusercontent.com/u/102493225?v=4" width="75px"> | Dev Team      | Paula Emy Tamay |  [Linkedin](https://www.linkedin.com/in/paula-tamay-7a168228a/)  | [GitHub](https://github.com/PaulaEmy)    |
 | <img src="https://avatars.githubusercontent.com/u/163305926?v=4" width="75px"> | Dev Team      | Vinícius da Silva Leite |  [Linkedin](https://www.linkedin.com/in/vinícius-leite-4792b02ba/)  | [GitHub](https://github.com/vinislvleite)    |
 | <img src="https://avatars.githubusercontent.com/u/106409918?v=4" width="75px"> | Dev Team      | Vitor Serpa da Silva |  [Linkedin](https://www.linkedin.com/in/vitor-serpa-925b46322/)  | [GitHub](https://github.com/VitorSerpa) |
+| <img src="https://avatars.githubusercontent.com/u/202960831?v=4" width="75px"> | Dev Team      | Pedro Miguel Nascimento |  [Linkedin](https://www.linkedin.com/in/)  | [GitHub](https://github.com/P3dr0213) |
