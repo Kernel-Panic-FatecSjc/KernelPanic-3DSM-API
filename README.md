@@ -7,7 +7,7 @@
 | **Clareza na Descrição** | A User Story deve estar escrita de forma clara e objetiva no padrão: “Como [usuário], quero [ação], para [benefício]”. |
 | **Critérios de Aceitação Definidos** | A história possui critérios objetivos que indicam o que é necessário para considerá-la concluída. |
 | **Independente** | A história pode ser implementada sem depender de outra tarefa da mesma Sprint. |
-| **Compreensão Compartilhada** | Toda a equipe (incluindo PO e devs) compreende o propósito da história. |
+| **Compreensão Compartilhada** | Toda a equipe compreende o propósito da história. |
 | **Estimável** | A história foi pontuada no Planning Poker ou tem uma estimativa clara. |
 | **Documentos de Apoio** | Se necessário, mockups, fluxos ou modelos de dados estão anexados na pasta de documentos (docs) |
 | **Critérios técnicos acordados** | As necessidades de Frontend e Backend foram claramente separadas (quando aplicável). |
