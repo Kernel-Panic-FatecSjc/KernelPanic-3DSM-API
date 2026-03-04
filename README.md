@@ -4,13 +4,10 @@
 
 | Critério | Descrição |
 | :--- | :--- |
-| **Clareza na Descrição** | A User Story deve estar escrita de forma clara e objetiva no padrão: “Como [usuário], quero [ação], para [benefício]”. |
+| **Clareza na Descrição** | A User Story deve estar escrita de forma clara e objetiva no padrão: “Como [usuário], quero [ação], para [benefício]” tendo que estar alinhados na regra de negocio. |
 | **Critérios de Aceitação Definidos** | A história possui critérios objetivos que indicam o que é necessário para considerá-la concluída. |
 | **Independente** | A história pode ser implementada sem depender de outra tarefa da mesma Sprint. |
-| **Compreensão Compartilhada** | Toda a equipe compreende o propósito da história. |
-| **Estimável** | A história foi pontuada no Planning Poker ou tem uma estimativa clara. |
-| **Documentos de Apoio** | Se necessário, mockups, fluxos ou modelos de dados estão anexados na pasta de documentos (docs) |
-| **Critérios técnicos acordados** | As necessidades de Frontend e Backend foram claramente separadas (quando aplicável). |
+| **Documentos de Apoio** | Estar realizado mockups, fluxos ou modelos de dados estão anexados na pasta de documentos (docs) |
 
 ---
 
@@ -19,10 +16,8 @@
 | Critério | Descrição |
 | :--- | :--- |
 | **Critérios de Aceitação atendidos** | Todos os cenários de testes foram executados e aprovados. |
-| **Testes manuais realizados** | Os testes manuais propostos foram concluidos. |
-| **Código revisado** | O código foi revisado pela equipe inteira. |
-| **Documentação atualizada** | README da API atualizados ao longo de cada sprint e conferidos no final de cada uma. |
-| **Integração com outras partes testadas** | As interfaces entre Frontend e Backend foram validadas. |
+| **Código revisado** | O código foi revisado por pelo menos um membro. |
+| **Documentação atualizada** | Documentação da API atualizados ao longo de cada sprint e conferidos no final de cada uma (quando aplicável). |
 | **Pronto para deploy** | O código está em uma branch principal, versionado, e pode ser integrado ao produto final sem esforço adicional. |
 
 ## Equipe <a name="equipe"><a>
