@@ -1,5 +1,6 @@
 # FATEC Profº Jessen Vidal - São José dos Campos - 3º Semestre DSM - 2026
 <p>Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 3° Semestre do curso Desenvolvimento de Software Multiplataforma (DSM), no projeto de <b>Controle de Apontamento de Horas</b>.</p>
+
 > _A API se trata de um projeto submetido à metodologia de ensino em implantação na Fatec São José dos Campos, do qual os alunos formam equipes baseadas na metodologia ágil SCRUM, tendo um aluno como Scrum Master, um sendo o Product Owner e o restante dos integrantes como Dev Team._
 
 ## Visão Geral
