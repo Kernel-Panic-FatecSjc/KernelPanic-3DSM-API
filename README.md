@@ -1,4 +1,16 @@
 # FATEC Profº Jessen Vidal - São José dos Campos - 3º Semestre DSM - 2026
+<p>Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 3° Semestre do curso Desenvolvimento de Software Multiplataforma (DSM), no projeto de <b>Controle de Apontamento de Horas</b>.</p>
+> _A API se trata de um projeto submetido à metodologia de ensino em implantação na Fatec São José dos Campos, do qual os alunos formam equipes baseadas na metodologia ágil SCRUM, tendo um aluno como Scrum Master, um sendo o Product Owner e o restante dos integrantes como Dev Team._
+
+## Visão Geral
+
+
+## Objetivo do produto
+O sistema tem como objetivo principal os gestores poderem identificar gargalos e atrazos, buscando uma maior eficiencia no processo de desenvolvimento de multiplos projetos:
+  - Melhor manejo no controle de recursos da empresa, como horas trabalhadas por desenvolvedor por projeto
+  - Encontrar dificuldades da equipe e prepara-los para problemas que se mostram recorrentes
+  - Ajudar gestores a manter os projetos dentro do prazo e do orçamento estipulado
+
 
 ## ✅ DoR - Definition of Ready <a id="dor"></a>
 
