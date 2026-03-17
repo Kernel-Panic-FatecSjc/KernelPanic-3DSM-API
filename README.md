@@ -13,6 +13,20 @@ O sistema tem como objetivo principal os gestores poderem identificar gargalos e
   - Encontrar dificuldades da equipe e prepara-los para problemas que se mostram recorrentes
   - Ajudar gestores a manter os projetos dentro do prazo e do orçamento estipulado
 
+## 📅 Cronograma de Sprints <a id="sprint"></a>
+
+| Sprint          |    Período    | Documentação                                     |
+| --------------- | :-----------: | ------------------------------------------------ |
+| **SPRINT 1** | 16/03 - 05/04 | [Sprint 1 Docs](...) |
+| **SPRINT 2** | 13/04 - 03/05 | [Sprint 2 Docs](...) |
+| **SPRINT 3** | 11/05 - 31/05 | [Sprint 3 Docs](...) |
+
+---
+
+## ⏳ Status do projeto: 1/3 Sprint
+
+---
+
 
 ## ✅ DoR - Definition of Ready <a id="dor"></a>
 
