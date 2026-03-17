@@ -9,9 +9,9 @@ Este projeto tem como objetivo desenvolver uma plataforma para gerir horas, foca
 Atualmente a GSW Soluções Integradas, utiliza um software que consegue resolver partes do problemas, porém acabou se tornando lento e ineficaz devido ao crescente número de projetos, tendo um suporte difícil de contatar. Esses problemas acabam afetando diretamente o lucro da empresa que não consegue indentificar aonde estão esses gargalos, sendo assim uma nova solução é necessária.
 
 ## Objetivo do produto
-O sistema tem como objetivo principal os gestores poderem identificar gargalos e atrazos, buscando uma maior eficiencia no processo de desenvolvimento de multiplos projetos:
+O sistema tem como objetivo principal os gestores poderem identificar gargalos e atrasos, buscando uma maior eficiência no processo de desenvolvimento de múltiplos projetos:
   - Melhor manejo no controle de recursos da empresa, como horas trabalhadas por desenvolvedor por projeto
-  - Encontrar dificuldades da equipe e prepara-los para problemas que se mostram recorrentes
+  - Encontrar dificuldades da equipe e prepará-los para problemas que se mostram recorrentes
   - Ajudar gestores a manter os projetos dentro do prazo e do orçamento estipulado
 
 ## 📅 Cronograma de Sprints <a id="sprint"></a>
