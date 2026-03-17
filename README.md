@@ -3,7 +3,9 @@
 > _A API se trata de um projeto submetido à metodologia de ensino em implantação na Fatec São José dos Campos, do qual os alunos formam equipes baseadas na metodologia ágil SCRUM, tendo um aluno como Scrum Master, um sendo o Product Owner e o restante dos integrantes como Dev Team._
 
 ## Visão Geral
+Este projeto tem como objetivo desenvolver uma plataforma para gerir horas, focando em descobrir gargalos no processo de desenvolvimento de software das equipes da <b>GSW Soluções Integradas</b>, com isso garantindo maior eficiência, controle de tempo e lucro para a empresa e para seus colaboladores. O software permitirá a visualização desses gargalos, além de permitir os que os colaboradores registrem seu ponto remotamente.
 
+Atualmente a GSW Soluções Integradas, utiliza um software que consegue resolver partes do problemas, porém acabou se tornando lento e ineficaz devido ao crescente número de projetos, tendo um suporte difícil de contatar. Esses problemas acabam afetando diretamente o lucro da empresa que não consegue indentificar aonde estão esses gargalos, sendo assim uma nova solução é necessária.
 
 ## Objetivo do produto
 O sistema tem como objetivo principal os gestores poderem identificar gargalos e atrazos, buscando uma maior eficiencia no processo de desenvolvimento de multiplos projetos:
