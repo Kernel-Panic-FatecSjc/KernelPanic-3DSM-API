@@ -37,7 +37,7 @@ O sistema tem como objetivo principal os gestores poderem identificar gargalos e
 | **Critérios de Aceitação Definidos** | A história possui critérios objetivos que indicam o que é necessário para considerá-la concluída. |
 | **Independente** | A história pode ser implementada sem depender de outra tarefa da mesma Sprint. |
 | **Documentos de Apoio** | Estar realizado mockups, fluxos ou modelos de dados estão anexados na pasta de documentos (docs) |
-
+| **Dicionário de dados** | Possuir um dicionário dos dados a ser utilizado para a produção da User Story |
 ---
 
 ## ✅ DoD - Definition of Done <a id="dod"></a>
