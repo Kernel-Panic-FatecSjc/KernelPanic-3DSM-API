@@ -42,7 +42,7 @@ O sistema tem como objetivo centralizar o controle de apontamento de horas da GS
 
 | Sprint          |    Período    | Documentação                                     |
 | --------------- | :-----------: | ------------------------------------------------ |
-| **SPRINT 1** | 16/03 - 05/04 | [Sprint 1 Docs](Documentacao/SprintUm) |
+| **SPRINT 1** | 16/03 - 05/04 | [Sprint 1 Docs](Documenta%C3%A7%C3%A3o/Sprint%20Um) |
 | **SPRINT 2** | 13/04 - 03/05 | [Sprint 2 Docs](Documentacao/SprintDois) |
 | **SPRINT 3** | 11/05 - 31/05 | [Sprint 3 Docs](Documentacao/SprintTres) |
 
