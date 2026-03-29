@@ -24,10 +24,9 @@ O sistema tem como objetivo centralizar o controle de apontamento de horas da GS
 ## Proposta de Valor
 
 Cada Sprint foi planejada para sanar uma das três dores principais do cliente:
-
-- **Sprint 1** — Profissionais sem um lugar padronizado para registrar como gastam seu tempo
-- **Sprint 2** — Líderes que não conseguem acompanhar com precisão as atividades, responsabilidades e gargalos dos projetos
-- **Sprint 3** — Financeiro sem dados confiáveis para calcular os custos reais por projeto
+- **Sprint 1** — US1, US4, US5, US7: Cadastro de projetos e usuários, lançamento de horas por atividade, sinalização de bloqueios com custo automático e aprovação de lançamentos pelo Gerente.
+- **Sprint 2** — US2, US3, US6, US9: Gestão de tarefas, alocação do time, visibilidade em tempo real dos projetos e suporte a diferentes tipos e regras de cobrança por projeto.
+- **Sprint 3** — US8, US10, US11, US12: Histórico completo de tarefas, relatórios financeiros por projeto, controle de custos por bloqueio e base confiável para faturamento.
 
 ## Backlog
 
