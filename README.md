@@ -18,10 +18,16 @@ Atualmente, a GSW Soluções Integradas utiliza um software que atende apenas pa
 O sistema tem como objetivo centralizar o controle de apontamento de horas da GSW Soluções Integradas, oferecendo para cada perfil a visibilidade que precisa:
   - Profissionais com um lugar padronizado para registrar horas por projeto e tipo de atividade
   - Líderes técnicos com visão clara da alocação do time, status das tarefas e identificação de gargalos
-  - Gestores e financeiro com dados confiáveis sobre custos reais, orçamento consumido e base para cobrança por projeto
-  - Suporte a projetos do tipo alocação e hora fechada, com regras distintas de custo e cobrança por projeto e atividade
-  - Apontamento no nível de atividade, permitindo distribuir horas entre análise, desenvolvimento e testes dentro de um mesmo item
+  - Gestores e financeiro com dados confiáveis sobre custos reais e base para cobrança por projeto
+  - Suporte a projetos do tipo alocação e hora fechada, com regras distintas de custo e cobrança por atividade
 
+## Proposta de Valor
+
+Cada Sprint foi planejada para sanar uma das três dores principais do cliente:
+
+- **Sprint 1** — Profissionais sem um lugar padronizado para registrar como gastam seu tempo
+- **Sprint 2** — Líderes que não conseguem acompanhar com precisão as atividades, responsabilidades e gargalos dos projetos
+- **Sprint 3** — Financeiro sem dados confiáveis para calcular os custos reais por projeto
 
 ## Backlog
 
