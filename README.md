@@ -1,4 +1,5 @@
 # FATEC Profº Jessen Vidal - São José dos Campos - 3º Semestre DSM - 2026
+
 <p>Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 3° Semestre do curso Desenvolvimento de Software Multiplataforma (DSM), no projeto de <b>Controle de Apontamento de Horas</b>.</p>
 
 > _A API se trata de um projeto submetido à metodologia de ensino em implantação na Fatec São José dos Campos, do qual os alunos formam equipes baseadas na metodologia ágil SCRUM, tendo um aluno como Scrum Master, um sendo o Product Owner e o restante dos integrantes como Dev Team._
@@ -31,34 +32,37 @@ A solução permitirá que os colaboradores registrem suas horas de forma centra
 
 **Impactos:** A dispersão dos dados gera diversos impactos na operação da GSW. O grupo considerou três como os mais críticos e os definiu como foco do desenvolvimento:
 
-- **Registro de horas:** profissionais não têm um lugar padronizado para registrar como gastam seu tempo, tornando os lançamentos inconsistentes e difíceis de aprovar.
-- **Acompanhamento de projetos:** líderes não conseguem visualizar a alocação do time nem identificar gargalos em tempo hábil para agir.
+**Impactos:** A dispersão dos dados gera diversos impactos na operação da GSW. O grupo considerou três como os mais críticos e os definiu como foco do desenvolvimento:
+
+- **Registro de horas:** profissionais não têm um lugar padronizado para registrar como gastam seu tempo e gestores não têm controle sobre a estrutura de projetos e equipes, tornando os lançamentos inconsistentes e sem rastreabilidade para a empresa.
+- **Acompanhamento de projetos:** gestores não conseguem visualizar a alocação do time, o status das tarefas nem identificar gargalos em tempo hábil para agir.
 - **Dados financeiros:** o financeiro não tem base confiável para calcular custos reais por projeto ou sustentar o faturamento.
 
 **Conclusão:** A escolha por desenvolver uma solução própria é direta: cada funcionalidade foi construída a partir de necessidades reais levantadas com Diego Miranda. O sistema do KernelPanic trata os três perfis de forma integrada — o profissional registra, o gestor valida e o financeiro decide — com rastreabilidade em cada etapa e um fluxo completo construído para a realidade da GSW.
 
 ## 🎯 Objetivo do Produto <a id="objetivo-do-produto"></a>
 
-O sistema tem como objetivo centralizar o controle de apontamento de horas da GSW Soluções Integradas, oferecendo para cada perfil a visibilidade que precisa:
+O sistema tem como objetivo centralizar o controle de apontamento de horas da GSW Soluções Integradas, resolvendo a cada sprint um dos pontos críticos identificados a partir da dor do cliente:
 
-- Profissionais com um lugar padronizado para registrar horas por projeto e tipo de atividade
-- Líderes técnicos com visão clara da alocação do time, status das tarefas e identificação de gargalos
-- Gestores e financeiro com dados confiáveis sobre custos reais e base para cobrança por projeto
+- Profissionais com um lugar padronizado para registrar, editar e acompanhar seus apontamentos de horas por projeto e tipo de atividade, e Gestores com controle sobre a estrutura de usuários e projetos cadastrados
+- Gestores com visibilidade clara da alocação do time, status das tarefas e identificação de gargalos em tempo real
+- Financeiro e Administrador com dados confiáveis sobre custos reais por projeto e base para auditoria e faturamento
 
 ## 📋 Backlog do Produto <a id="backlog-do-produto"></a>
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
 | :--: | :--------: | :--------- | :--------: | :----: |
-| 1 | 🔴 Alta | US1: Como Gerente, quero registrar usuários com seus custos por hora e criar projetos com orçamento previsto, associando profissionais a cada projeto, para que eu tenha controle sobre a viabilidade financeira e seja alertado quando o custo acumulado se aproximar ou ultrapassar o orçamento definido. | 8 | 1 |
-| 2 | 🔴 Alta | US2: Como Líder Técnico, quero administrar as tarefas e alocar os profissionais certos, para garantir que o time não fique parado e os bugs sejam resolvidos com agilidade. | ? | ? |
-| 3 | 🔴 Alta | US3: Como Analista, quero detalhar os requisitos, estimar prazos e propor testes, para que o desenvolvimento ocorra com o mínimo de dúvidas de negócio possível. | ? | ? |
-| 4 | 🔴 Alta | US4: Como Desenvolvedor, quero lançar minhas horas trabalhadas informando o projeto, a task, o período (início e fim) e o tipo de atividade realizada (Feature, Correção de Bug, Reunião ou Documentação), para que a empresa tenha rastreabilidade sobre como o tempo está sendo distribuído entre inovação e correção de falhas, e gestores possam aprovar ou rejeitar lançamentos retroativos com justificativa. | 13 | 1 |
-| 5 | 🔴 Alta | US5: Como Desenvolvedor, quero alterar o status de uma tarefa para "Bloqueada", selecionando obrigatoriamente a categoria do impedimento (Erro de Analista, Aguardando Cliente, Problema Técnico ou Dúvida de Negócio), para que o sistema registre automaticamente o tempo de parada, calcule o custo do atraso com base no meu valor/hora e alerte o gestor no dashboard quando o bloqueio ultrapassar 24 horas, permitindo identificar e resolver gargalos com precisão financeira. | 5 | 1 |
-| 6 | 🔴 Alta | US6: Como Líder Técnico, quero visualizar em tempo real o status de todas as tarefas e a ocupação do time, para identificar gargalos no fluxo de trabalho e garantir que as entregas sigam o cronograma planejado. | ? | ? |
-| 7 | 🟠 Média | US7: Como Gerente, quero acessar um painel de aprovação de horas lançadas pelos funcionários, podendo filtrar por profissional, projeto ou período, aprovar ou reprovar lançamentos individualmente ou em lote, e ao reprovar informar obrigatoriamente o motivo, para que apenas horas aprovadas sejam contabilizadas no custo real do projeto e no relatório financeiro. | 3 | 1 |
-| 8 | 🟠 Média | US8: Como Líder Técnico, quero ter um histórico cronológico de quem trabalhou em cada task e quais impedimentos encontrou. | ? | ? |
-| 9 | 🟡 Baixa | US9: Como Gerente, quero um relatório consolidado de falhas e atrasos, para identificar padrões e treinar a equipe onde for necessário. | ? | ? |
-| 10 | 🟡 Baixa | US10: Como Gestor, quero ter o controle de quanto tempo uma tarefa ficou parada, quanto custou para a empresa e o porquê ela ficou parada. | ? | ? |
+| 1 | 🔴 Alta | US1: Como Gestor, quero cadastrar usuários com seus respectivos dados e custos por hora, cadastrar projetos com informações de identificação, responsável, equipe e prazo, e acompanhar o andamento dos projetos cadastrados, para que a empresa tenha controle sobre a estrutura das equipes e o progresso dos projetos. | 8 | 1 |
+| 2 | 🔴 Alta | US4: Como Profissional, quero registrar, editar e excluir apontamentos de horas com informações de projeto, atividade e período, e acompanhar meus lançamentos por status (aguardando aprovação, aprovados e rejeitados) com filtros por projeto e data, para que a empresa tenha rastreabilidade sobre o esforço da equipe e o Gestor possa validar os lançamentos. | 13 | 1 |
+| 3 | 🔴 Alta | US2: Como Gestor, quero criar e gerenciar tarefas dentro de cada projeto, podendo atribuí-las a profissionais alocados e acompanhar seu status, para que o time saiba exatamente o que precisa ser feito e eu tenha visibilidade do andamento. | 8 | 2 |
+| 4 | 🔴 Alta | US3: Como Gestor, quero acessar um painel de aprovação de horas lançadas pelos profissionais, podendo filtrar por profissional, projeto ou período, aprovar ou reprovar lançamentos individualmente ou em lote, e ao reprovar informar obrigatoriamente o motivo, para que apenas horas aprovadas sejam contabilizadas no custo real do projeto. | 5 | 2 |
+| 5 | 🔴 Alta | US5: Como Profissional, quero alterar o status de uma tarefa para bloqueada, informando obrigatoriamente a categoria do impedimento (Erro de Analista, Aguardando Cliente, Problema Técnico ou Dúvida de Negócio), para que o Gestor seja alertado e o tempo de bloqueio fique registrado. | 5 | 2 |
+| 6 | 🔴 Alta | US6: Como Gestor, quero visualizar em tempo real o status de todas as tarefas e a ocupação do time por projeto, para identificar gargalos no fluxo de trabalho e garantir que as entregas sigam o cronograma. | 5 | 2 |
+| 7 | 🟠 Média | US7: Como Gestor, quero acessar o histórico cronológico de quem trabalhou em cada tarefa, quanto tempo alocou e quais impedimentos encontrou, para ter rastreabilidade total do esforço por tarefa. | 3 | 3 |
+| 8 | 🟠 Média | US8: Como Administrador, quero acessar o histórico de alterações feitas em lançamentos de horas, visualizando quem alterou, quando e o que mudou, para garantir rastreabilidade e auditoria dos dados. | 3 | 3 |
+| 9 | 🟠 Média | US9: Como Financeiro, quero visualizar o custo real acumulado de cada projeto com base nas horas aprovadas e no valor/hora dos profissionais, comparando com o valor contratado cadastrado, para ter base confiável para análise e faturamento. | 8 | 3 |
+| 10 | 🟡 Baixa | US10: Como Gestor, quero um relatório consolidado de bloqueios por projeto, com tempo parado e categoria do impedimento, para identificar padrões recorrentes e agir preventivamente. | 5 | 3 |
+| 11 | 🟡 Baixa | US11: Como usuário do sistema, quero acessar um dashboard personalizado de acordo com o meu perfil, para visualizar de forma visual e consolidada as informações mais relevantes para a minha função, permitindo acompanhar desempenho, identificar gargalos e tomar decisões com base em dados. | 13 | 3 |
 
 ## 📅 Cronograma de Sprints <a id="sprint"></a>
 
@@ -66,9 +70,9 @@ Cada sprint foi planejada para atacar um dos três impactos mais críticos ident
 
 | Sprint | Período | Entrega | Documentação |
 | --------------- | :-----------: | :--------- | ------------------------------------------------ |
-| **SPRINT 1** | 16/03 - 05/04 | Cadastro de projetos e usuários, lançamento de horas por atividade, sinalização de bloqueios com custo automático e aprovação de lançamentos pelo Gerente. | [Sprint 1 Docs](Documenta%C3%A7%C3%A3o/Sprint%20Um) |
-| **SPRINT 2** | 13/04 - 03/05 | Gestão de tarefas, alocação do time, visibilidade em tempo real dos projetos e suporte a diferentes tipos e regras de cobrança por projeto. | [Sprint 2 Docs](Documenta%C3%A7%C3%A3o/Sprint%20Dois) |
-| **SPRINT 3** | 11/05 - 31/05 | Histórico completo de tarefas, relatórios financeiros por projeto, controle de custos por bloqueio e base confiável para faturamento. | [Sprint 3 Docs](Documenta%C3%A7%C3%A3o/Sprint%20Tres) |
+| **SPRINT 1** | 16/03 - 05/04 | Cadastro de projetos e usuários, lançamento de horas por atividade e acompanhamento de lançamentos por status. | [Sprint 1 Docs](Documenta%C3%A7%C3%A3o/Sprint%20Um) |
+| **SPRINT 2** | 13/04 - 03/05 | Gestão e atribuição de tarefas, aprovação de lançamentos pelo Gestor, sinalização de bloqueios com categoria do impedimento e visibilidade em tempo real do time. | [Sprint 2 Docs](Documenta%C3%A7%C3%A3o/Sprint%20Dois) |
+| **SPRINT 3** | 11/05 - 31/05 | Histórico de tarefas e auditoria de lançamentos, painel financeiro com custo real por projeto, relatório de bloqueios e dashboard personalizado por perfil. | [Sprint 3 Docs](Documenta%C3%A7%C3%A3o/Sprint%20Tres) |
 
 ## ✅ DoR e DoD <a id="dor-e-dod"></a>
 
@@ -109,13 +113,16 @@ Cada sprint foi planejada para atacar um dos três impactos mais críticos ident
 <summary>Clique para expandir</summary>
 
 ## 🔹 Estrutura de Branches
+
 Adotamos uma variação do GitFlow, com regras específicas para nossa equipe.
 
 **Fluxo Principal**
+
 - `main` → Código estável em produção.
 - `desenvolvimento` → Integração da sprint.
 
 **Fluxo de Desenvolvimento**
+
 - `feature/US-<id>-<nome>` → Cada User Story tem sua branch.
 - `task/US-<id>-<descrição>` → Subtasks técnicas (opcional).
 - `db/sprint-<número>` → Alterações de banco de dados da sprint.
@@ -141,12 +148,15 @@ Exemplo: `feat(US-01): adiciona cadastro de usuário`
 </details>
 
 ## 📁 Estrutura do Projeto <a id="estrutura"></a>
-Em andamento 
+
+Em andamento
 
 ## 📖 Manual de Instalação <a id="instalacao"></a>
+
  Em andamento
 
 ## 👤 Manual do Usuário <a id="usuario"></a>
+
 Em andamento
 
 ## 👥 Equipe <a id="equipe"></a>
@@ -162,4 +172,3 @@ Em andamento
 | <img src="https://avatars.githubusercontent.com/u/202960831?v=4" width="75px"> | Dev Team | Pedro Miguel Nascimento | [Linkedin](https://www.linkedin.com/in/) | [GitHub](https://github.com/P3dr0213) |
 | <img src="https://avatars.githubusercontent.com/u/163305926?v=4" width="75px"> | Dev Team | Vinícius da Silva Leite | [Linkedin](https://www.linkedin.com/in/vinícius-leite-4792b02ba/) | [GitHub](https://github.com/vinislvleite) |
 | <img src="https://avatars.githubusercontent.com/u/106409918?v=4" width="75px"> | Dev Team | Vitor Serpa da Silva | [Linkedin](https://www.linkedin.com/in/vitor-serpa-925b46322/) | [GitHub](https://github.com/VitorSerpa) |
-
