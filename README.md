@@ -80,30 +80,33 @@ Cada sprint foi planejada para atacar um dos três impactos mais críticos ident
 
 | Critério | Descrição |
 | :--- | :--- |
-| **Clareza na Descrição** | A User Story deve estar escrita de forma clara e objetiva no padrão: "Como [usuário], quero [ação], para [benefício]" tendo que estar alinhados na regra de negocio. |
+| **Clareza na Descrição** | A User Story deve estar escrita de forma clara e objetiva no padrão: "Como [usuário], quero [ação], para [benefício]" tendo que estar alinhada às regras de negócio. |
 | **Critérios de Aceitação Definidos** | A história possui critérios objetivos que indicam o que é necessário para considerá-la concluída. |
-| **Independente** | A história pode ser implementada sem depender de outra tarefa da mesma Sprint. |
-| **Documentos de Apoio** | Estar realizado mockups, fluxos ou modelos de dados estão anexados na pasta de documentos (docs) |
-| **Dicionário de dados** | Possuir um dicionário dos dados a ser utilizado para a produção da User Story |
+| **Dependências Verificadas** | As dependências com outras User Stories ou tarefas estão identificadas e registradas, e não há bloqueios para o início da implementação. |
+| **Documentos de Apoio** | Critérios de aceitação, cenários, regras de negócio e dicionário de dados estão documentados e anexados na pasta de documentos (docs). |
 
 ### DoD - Definition of Done
 
 | Critério | Descrição |
 | :--- | :--- |
-| **Critérios de Aceitação atendidos** | Todos os cenários de testes foram executados e aprovados. |
-| **Código revisado** | O código foi revisado por pelo menos um membro. |
-| **Documentação atualizada** | Documentação da API atualizados ao longo de cada sprint e conferidos no final de cada uma (quando aplicável). |
-| **Pronto para deploy** | O código está em uma branch principal, versionado, e pode ser integrado ao produto final sem esforço adicional. |
+| **Critérios de Aceitação Atendidos** | Todos os cenários de testes foram executados e aprovados. |
+| **Código Revisado** | O código foi revisado por pelo menos um membro do Dev Team e validado pelo Product Owner. |
+| **Estabilidade do Sistema** | A funcionalidade implementada não quebra funcionalidades já existentes no sistema. |
+| **Padrão de Commits e Branch Seguido** | O código segue o padrão de mensagens de commit e estratégia de branch definidos pelo time. |
+| **Documentação Atualizada** | Documentação da API atualizada ao longo de cada sprint e conferida no final de cada uma (quando aplicável). |
+| **Pronto para Deploy** | O código está em uma branch principal, versionado, e pode ser integrado ao produto final sem esforço adicional. |
 
 ## 🛠️ Tecnologias Utilizadas <a id="tecnologias"></a>
 
 <div align="center">
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white&color=043873">
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&color=043873">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white&color=043873">
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&color=043873">
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white&color=043873">
+<img src="https://img.shields.io/badge/Spring Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white&color=043873">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&color=043873">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&color=043873">
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&color=043873">
 <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white&color=043873">
 </div>
 
@@ -149,7 +152,37 @@ Exemplo: `feat(US-01): adiciona cadastro de usuário`
 
 ## 📁 Estrutura do Projeto <a id="estrutura"></a>
 
-Em andamento
+> Em andamento
+
+<details>
+<summary>Clique para expandir</summary>
+
+```
+KernelPanic-3DSM-API/
+├── KP-3DSM-API-FRONTEND/
+│   └── frontend/
+│       ├── app/
+│       │   ├── cadastro_usuario/
+│       │   ├── controleHoras/
+│       │   │   ├── aguardando-aprovacao/
+│       │   │   ├── aprovados/
+│       │   │   ├── entrada-saida/
+│       │   │   ├── historico/
+│       │   │   └── rejeitados/
+│       │   ├── login/
+│       │   └── registro-projeto/
+│       └── public/
+│
+└── KP-3DSM-API-BACKEND/
+    ├── api-gateway/
+    ├── auth-service/
+    ├── usuario-service/
+    ├── projeto-service/
+    ├── apontamentohoras-service/
+    └── tarefa-service/
+```
+
+</details>
 
 ## 📖 Manual de Instalação <a id="instalacao"></a>
 
@@ -157,7 +190,9 @@ Em andamento
 
 ## 👤 Manual do Usuário <a id="usuario"></a>
 
-Em andamento
+O Manual do Usuário está disponível em PDF na pasta de documentação do projeto.
+
+[📄 Acessar Manual do Usuário](Documenta%C3%A7%C3%A3o/Manual%20do%20Usuario%20KernelPanic.docx.pdf)
 
 ## 👥 Equipe <a id="equipe"></a>
 
