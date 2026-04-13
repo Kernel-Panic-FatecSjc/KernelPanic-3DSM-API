@@ -32,8 +32,6 @@ A solução permitirá que os colaboradores registrem suas horas de forma centra
 
 **Impactos:** A dispersão dos dados gera diversos impactos na operação da GSW. O grupo considerou três como os mais críticos e os definiu como foco do desenvolvimento:
 
-**Impactos:** A dispersão dos dados gera diversos impactos na operação da GSW. O grupo considerou três como os mais críticos e os definiu como foco do desenvolvimento:
-
 - **Registro de horas:** profissionais não têm um lugar padronizado para registrar como gastam seu tempo e gestores não têm controle sobre a estrutura de projetos e equipes, tornando os lançamentos inconsistentes e sem rastreabilidade para a empresa.
 - **Acompanhamento de projetos:** gestores não conseguem visualizar a alocação do time, o status das tarefas nem identificar gargalos em tempo hábil para agir.
 - **Dados financeiros:** o financeiro não tem base confiável para calcular custos reais por projeto ou sustentar o faturamento.
@@ -202,8 +200,6 @@ O Manual do Usuário está disponível em PDF na pasta de documentação do proj
 | <img src="https://avatars.githubusercontent.com/u/119637682?v=4" width="75px"> | Product Owner | Heloisa Cardillo | [Linkedin](https://www.linkedin.com/in/heloisa-cardillo-lima/) | [GitHub](https://github.com/heloisa-cardillo) |
 | <img src="https://avatars.githubusercontent.com/u/162122368?v=4" width="75px"> | Dev Team | Daniel Porto Renó Sás Piloto | [Linkedin](https://www.linkedin.com/in/daniel-piloto-98b717226/) | [GitHub](https://github.com/danprsp) |
 | <img src="https://avatars.githubusercontent.com/u/140865436?v=4" width="75px"> | Dev Team | Henry Vilela Silva Tito | [Linkedin](https://www.linkedin.com/in/henry-tito-989b4b354/) | [GitHub](https://github.com/HenryTito) |
-| <img src="https://avatars.githubusercontent.com/u/163298566?v=4" width="75px"> | Dev Team | João Victor Dos Reis Santos | [Linkedin](https://www.linkedin.com/in/joão-victor-dos-reis-santos-1823532b4) | [GitHub](https://github.com/Templasan) |
 | <img src="https://avatars.githubusercontent.com/u/102493225?v=4" width="75px"> | Dev Team | Paula Emy Tamay | [Linkedin](https://www.linkedin.com/in/paula-tamay-7a168228a/) | [GitHub](https://github.com/PaulaEmy) |
-| <img src="https://avatars.githubusercontent.com/u/202960831?v=4" width="75px"> | Dev Team | Pedro Miguel Nascimento | [Linkedin](https://www.linkedin.com/in/) | [GitHub](https://github.com/P3dr0213) |
 | <img src="https://avatars.githubusercontent.com/u/163305926?v=4" width="75px"> | Dev Team | Vinícius da Silva Leite | [Linkedin](https://www.linkedin.com/in/vinícius-leite-4792b02ba/) | [GitHub](https://github.com/vinislvleite) |
 | <img src="https://avatars.githubusercontent.com/u/106409918?v=4" width="75px"> | Dev Team | Vitor Serpa da Silva | [Linkedin](https://www.linkedin.com/in/vitor-serpa-925b46322/) | [GitHub](https://github.com/VitorSerpa) |
