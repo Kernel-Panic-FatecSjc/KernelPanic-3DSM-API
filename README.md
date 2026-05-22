@@ -58,9 +58,9 @@ O sistema tem como objetivo centralizar o controle de apontamento de horas da GS
 | 5 | 🔴 Alta | US5: Como Profissional, quero alterar o status de uma tarefa para bloqueada, informando obrigatoriamente a categoria do impedimento (Erro de Analista, Aguardando Cliente, Problema Técnico, Dúvida de Negócio ou Outro), para que o Gestor seja alertado e o tempo de bloqueio fique registrado. | 5 | 2 |
 | 6 | 🔴 Alta | US6: Como Gestor, quero visualizar em tempo real o status de todas as tarefas e a ocupação do time por projeto, para identificar gargalos no fluxo de trabalho e garantir que as entregas sigam o cronograma. | 5 | 2 |
 | 7 | 🟠 Média | US7: Como Gestor, quero acessar um painel de rastreabilidade que exiba o consolidado de bloqueios do projeto por categoria e tempo parado, e o histórico cronológico detalhado de cada tarefa, para identificar padrões recorrentes e ter visibilidade total do esforço e impedimentos por tarefa. | 3 | 3 |
-| 8 | 🟠 Média | US8: Como Financeiro, quero acessar o histórico de alterações feitas em lançamentos de horas aprovadas, visualizando quem alterou, quando e o que mudou, para garantir rastreabilidade e base confiável para faturamento. | 3 | 3 |
-| 9 | 🟠 Média | US9: Como Financeiro, quero visualizar o custo real acumulado de cada projeto comparado ao valor contratado e o detalhamento de custo por profissional, para ter base confiável para análise e faturamento. | 8 | 3 |
-| 10 | 🟡 Baixa | US10: Como usuário do sistema, quero acessar um dashboard personalizado de acordo com o meu perfil, para visualizar de forma consolidada as informações mais relevantes para a minha função e tomar decisões com base em dados. | 13 | 3 |
+| 8 | 🟠 Média | US8: Como Financeiro, quero acessar o histórico de alterações feitas em lançamentos de horas aprovadas, visualizando quem alterou, quando e o que mudou, para garantir rastreabilidade e base confiável para faturamento. | 8 | 3 |
+| 9 | 🟠 Média | US9: Como usuário do sistema, quero acessar um dashboard personalizado de acordo com o meu perfil, para visualizar de forma consolidada as informações mais relevantes para a minha função e tomar decisões com base em dados. O dashboard do Financeiro inclui aviso de projetos acima do orçamento, evolução do custo real acumulado comparado ao valor contratado e previsão de faturamento calculada com base no tipo de contrato de cada profissional. | 13 | 3 |
+
 
 ## Cronograma de Sprints <a id="sprint"></a>
 
@@ -70,7 +70,7 @@ Cada sprint foi planejada para atacar um dos três impactos mais críticos ident
 | --------------- | :-----------: | :--------- | ------------------------------------------------ |
 | **SPRINT 1** | 16/03 - 05/04 | Cadastro de projetos e usuários, lançamento de horas por atividade e acompanhamento de lançamentos por status. | [Sprint 1 Docs](Material%20Academico/Sprint%20Um) |
 | **SPRINT 2** | 13/04 - 03/05 | Gestão e atribuição de tarefas, aprovação de lançamentos pelo Gestor, sinalização de bloqueios com categoria do impedimento e visibilidade em tempo real do time. | [Sprint 2 Docs](Material%20Academico/Sprint%20Dois) |
-| **SPRINT 3** | 11/05 - 31/05 | Histórico de tarefas e auditoria de lançamentos, painel financeiro com custo real por projeto e dashboard personalizado por perfil. | [Sprint 3 Docs](Material%20Academico/Sprint%20Tr%C3%AAs) |
+| **SPRINT 3** | 11/05 - 31/05 | Histórico de tarefas e rastreabilidade de bloqueios, auditoria de lançamentos com exportação, e dashboard personalizado por perfil com acompanhamento financeiro de custo real por projeto, aviso de orçamento e previsão de faturamento. | [Sprint 3 Docs](Material%20Academico/Sprint%20Tr%C3%AAs) |
 
 ## DoR e DoD <a id="dor-e-dod"></a>
 
@@ -204,7 +204,7 @@ O Manual de Instalação está disponível na pasta de material acadêmico do pr
 
 O Manual do Usuário está disponível em PDF na pasta de documentação do projeto.
 
-[📄 Acessar Manual do Usuário](Documenta%C3%A7%C3%A3o/Manual%20do%20Usuario%20GSW.pdf)
+[📄 Acessar Manual do Usuário](Documenta%C3%A7%C3%A3o/Manual%20do%20Usuario.pdf)
 
 ## Modelo de Entrega <a id="entrega"></a>
 
