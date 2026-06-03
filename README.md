@@ -198,7 +198,7 @@ KernelPanic-3DSM-API/
 
 O Manual de Instalação está disponível na pasta de material acadêmico do projeto.
 
-[📄 Acessar Manual de Instalação](Material%20Academico/Manual%20de%20Instala%C3%A7%C3%A3o%20.pdf)
+[📄 Acessar Manual de Instalação](./Material%20Academico/Manual_de_Instalacao.pdf)
 
 ## Manual do Usuário <a id="usuario"></a>
 
