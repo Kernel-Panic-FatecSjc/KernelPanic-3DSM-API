@@ -60,7 +60,8 @@ O sistema tem como objetivo centralizar o controle de apontamento de horas da GS
 | 7 | 🟠 Média | US7: Como Gestor, quero acessar um painel de rastreabilidade que exiba o consolidado de bloqueios do projeto por categoria e tempo parado, e o histórico cronológico detalhado de cada tarefa, para identificar padrões recorrentes e ter visibilidade total do esforço e impedimentos por tarefa. | 3 | 3 |
 | 8 | 🟠 Média | US8: Como Financeiro, quero acessar o histórico de alterações feitas em lançamentos de horas aprovadas, visualizando quem alterou, quando e o que mudou, para garantir rastreabilidade e base confiável para faturamento. | 8 | 3 |
 | 9 | 🟠 Média | US9: Como usuário do sistema, quero acessar um dashboard personalizado de acordo com o meu perfil, para visualizar de forma consolidada as informações mais relevantes para a minha função e tomar decisões com base em dados. O dashboard do Financeiro inclui aviso de projetos acima do orçamento, evolução do custo real acumulado comparado ao valor contratado e previsão de faturamento calculada com base no tipo de contrato de cada profissional. | 13 | 3 |
-
+| 10 | 🟡 Baixa | US10: Como Gestor, quero cadastrar e editar clientes com seus dados de identificação e vinculá-los a projetos existentes, para que o Financeiro possa acompanhar o desempenho financeiro por cliente. | 5 | 4 |
+| 11 | 🟡 Baixa | US11: Como Financeiro, quero acessar um painel com a visão consolidada dos clientes, visualizando valor contratado, custo real e lucro por cliente, para acompanhar o desempenho financeiro da empresa. | 8 | 4 |
 
 ## Cronograma de Sprints <a id="sprint"></a>
 
@@ -70,7 +71,8 @@ Cada sprint foi planejada para atacar um dos três impactos mais críticos ident
 | --------------- | :-----------: | :--------- | ------------------------------------------------ |
 | **SPRINT 1** | 16/03 - 05/04 | Cadastro de projetos e usuários, lançamento de horas por atividade e acompanhamento de lançamentos por status. | [Sprint 1 Docs](Material%20Academico/Sprint%20Um) |
 | **SPRINT 2** | 13/04 - 03/05 | Gestão e atribuição de tarefas, aprovação de lançamentos pelo Gestor, sinalização de bloqueios com categoria do impedimento e visibilidade em tempo real do time. | [Sprint 2 Docs](Material%20Academico/Sprint%20Dois) |
-| **SPRINT 3** | 11/05 - 31/05 | Histórico de tarefas e rastreabilidade de bloqueios, auditoria de lançamentos com exportação, e dashboard personalizado por perfil com acompanhamento financeiro de custo real por projeto, aviso de orçamento e previsão de faturamento. | [Sprint 3 Docs](Material%20Academico/Sprint%20Tr%C3%AAs) |
+| **SPRINT 3** | 11/05 - 31/05 | Histórico de tarefas e rastreabilidade de bloqueios, auditoria de lançamentos, e dashboard personalizado por perfil com acompanhamento financeiro de custo real por projeto, aviso de orçamento e previsão de faturamento. | [Sprint 3 Docs](Material%20Academico/Sprint%20Tr%C3%AAs) |
+| **SPRINT 4** | 08/06 - 16/06 | Cadastro de clientes e vínculo com projetos, painel financeiro por cliente com valor contratado, custo real e lucro. Sistema completo testado e funcional. | [Sprint 4 Docs](Material%20Academico/Sprint%20Quatro) |
 
 ## DoR e DoD <a id="dor-e-dod"></a>
 
